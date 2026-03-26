@@ -1,0 +1,31 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #f7f5f0;
+  --white: #ffffff;
+  --ink: #1a1a1a;
+  --muted: #666;
+  --border: #e5e2da;
+  --accent: #2a5cff;
+  --accent-light: #eaefff;
+  --success-bg: #eaf3de;
+  --success-text: #3b6d11;
+  --error-text: #a32d2d;
+  --valid-color: #639922;
+  --error-color: #e24b4a;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+  min-height: 100vh;
+}

@@ -1,0 +1,137 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg);
+  padding: 2rem 1rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background-color: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  animation: fadeUp 0.4s ease both;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Brand */
+.brand {
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--ink);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.tab {
+  flex: 1;
+  padding: 9px 0;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: var(--muted);
+  transition: background 0.15s, color 0.15s;
+}
+
+.tab:hover {
+  background: #f0ede8;
+}
+
+.tabActive {
+  background: #f0ede8;
+  color: var(--ink);
+}
+
+/* Form heading */
+.formTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+
+.formSub {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+}
+
+/* Submit button */
+.btn {
+  width: 100%;
+  margin-top: 6px;
+  padding: 11px 0;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--ink);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.btn:hover   { background: #333; }
+.btn:active  { transform: scale(0.98); }
+
+/* Messages */
+.successMsg {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background-color: var(--success-bg);
+  color: var(--success-text);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  text-align: center;
+}
+
+.submitError {
+  font-size: 13px;
+  color: var(--error-text);
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background: #fcebeb;
+  border-radius: var(--radius-sm);
+}
+
+/* Switch link */
+.switchText {
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 1rem;
+}
+
+.switchLink {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: 'DM Sans', sans-serif;
+  color: var(--accent);
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
