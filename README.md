@@ -12,5 +12,13 @@
 # 4. auth-app - 
 #### This is a registration and Signup form cerated from React.
 ----------------------------------------------------------------
+
+# 5. Lab5-backedn
+#### Authentication of Login/Register with fast API
+-------------------------------------------------------------------------
+
+# Lab6-backend
+#### fastAPI with ORM and migrations
+-----------------------------------------------------------------
    
 # .!!!! IGNOREEE Portfolio , Portfolio_ and Portfolioo !!!!
